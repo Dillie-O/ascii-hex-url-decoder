@@ -1,0 +1,33 @@
+﻿<Window x:Class="URL_Decoder.Main" 
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="ASCII Hex URL Decoder" Height="375" Width="650">
+    <Grid>
+      <DockPanel Name="dcpMain">
+         
+         <Menu Name="mnuMain" DockPanel.Dock="Top" Height="22" >
+            <MenuItem Name="mnuFile" Header="File">
+               <MenuItem Name="mnuAbout" Header="About" Click="AboutApplication" />
+               <MenuItem Name="mnuFileQuit" Header="Quit" Click="QuitApplication" />
+            </MenuItem>
+         </Menu>
+         
+         <StatusBar Name="sbMain" DockPanel.Dock="Bottom" Height="23">
+            <StatusBarItem Name="sbiStatusText">URL Decoder</StatusBarItem>
+         </StatusBar>
+         
+         <DockPanel Name="dcpDecode">
+            <Label Name="lblURLText" DockPanel.Dock="Top">Enter URL Text:</Label>
+            <TextBox Name="txtURLText" DockPanel.Dock="Top" Height="100px" TextWrapping="Wrap"></TextBox>
+            <Button Name="btnDecodeText" DockPanel.Dock="Top" Width="50px" Click="DecodeURL">Decode</Button>
+            <WrapPanel Name="stpResults" DockPanel.Dock="Top">
+               <Label Name="lblDecodedText" Height="25" Width="100">Decoded Results:</Label>
+               <RadioButton Name="radResultsValue" GroupName="DecodedResults" IsChecked="True" ToolTip="Display decoded value only" Height="16" Width="50">Value</RadioButton>
+               <RadioButton Name="radResultsContext" GroupName="DecodedResults" ToolTip="Display decoded value in context of surrounding data." Height="16">Context</RadioButton>
+            </WrapPanel>            
+            <TextBox Name="txtDecodedText" TextWrapping="Wrap"></TextBox>            
+         </DockPanel>
+         
+      </DockPanel>
+   </Grid>
+</Window>

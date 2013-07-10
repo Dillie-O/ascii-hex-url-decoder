@@ -1,0 +1,12 @@
+C:\Projects\Dillie-O Digital\URL Decoder\obj\Debug\ResolveAssemblyReference.cache
+C:\Projects\Dillie-O Digital\URL Decoder\obj\Debug\Main.baml
+C:\Projects\Dillie-O Digital\URL Decoder\obj\Debug\Main.g.cs
+C:\Projects\Dillie-O Digital\URL Decoder\obj\Debug\App.g.cs
+C:\Projects\Dillie-O Digital\URL Decoder\obj\Debug\URL Decoder.csproj.GenerateResource.Cache
+C:\Projects\Dillie-O Digital\URL Decoder\bin\Debug\URLDecoder.exe
+C:\Projects\Dillie-O Digital\URL Decoder\bin\Debug\URLDecoder.pdb
+C:\Projects\Dillie-O Digital\URL Decoder\obj\Debug\URLDecoder_MarkupCompile.cache
+C:\Projects\Dillie-O Digital\URL Decoder\obj\Debug\URLDecoder.g.resources
+C:\Projects\Dillie-O Digital\URL Decoder\obj\Debug\URLDecoder.Properties.Resources.resources
+C:\Projects\Dillie-O Digital\URL Decoder\obj\Debug\URLDecoder.exe
+C:\Projects\Dillie-O Digital\URL Decoder\obj\Debug\URLDecoder.pdb
