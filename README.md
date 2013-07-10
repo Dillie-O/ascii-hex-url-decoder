@@ -1,4 +1,4 @@
-ascii-hex-url-decoder
+ASCII Hex URL Decoder
 =====================
 
 This tool decodes Ascii Hex encoded data found in URLs used in recent SQL Injection attacks.
