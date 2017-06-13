@@ -14,4 +14,4 @@ So here's the app. It is nothing fancy. You can paste your full URL from your lo
 
 Example: Enter CAST(0x48454C4C4F20574F524C44 AS VARCHAR) or http://www.foobar.net/ViewItem.aspx?id=CAST(0x48454C4C4F20574F524C44 AS VARCHAR) and press the decode button (don't worry, you will get "HELLO WORLD" as the result).
 
-I hope this helps. Thanks to the stack overflow folks (http://stackoverflow.com) as well for helping me finish off a couple small pieces to the puzzle.
+I hope this helps. Thanks to the stack overflow folks (https://stackoverflow.com/questions/109/decoding-t-sql-cast-in-c-vb-net) as well for helping me finish off a couple small pieces to the puzzle.
